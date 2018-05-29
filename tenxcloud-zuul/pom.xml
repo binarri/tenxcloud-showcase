@@ -6,19 +6,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.wasu.tenxcloud</groupId>
         <artifactId>tenxcloud-showcase</artifactId>
+        <groupId>com.wasu.tenxcloud</groupId>
         <version>0.1.0</version>
     </parent>
 
-    <artifactId>tenxcloud-eureka</artifactId>
+    <artifactId>tenxcloud-zuul</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
+
     </dependencies>
 
 </project>
